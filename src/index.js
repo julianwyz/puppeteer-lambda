@@ -63,7 +63,7 @@ PuppeteerLambda.prototype.setupChrome = async function() {
     if (await this.existsLocalChrome()) {
       await this.setupLocalChrome();
     } else {
-      await this.etupS3Chrome();
+      await this.setupS3Chrome();
     }
   }
 };
